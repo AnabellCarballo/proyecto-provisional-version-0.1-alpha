@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Metodologia</title>
+    <title>Tutoria</title>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet"  type="text/css"href="materialize/css/materialize.min.css">
+    
+    
     <style>
 
         
@@ -119,7 +121,7 @@
                                                         
                                                 <div class="col s12 ">
                                                         <a href="#!" id="datos"  class=" breadcrumb ">Datos Generales</a>
-                                                        <a href="#!" id="metodologia" class=" breadcrumb ">Metodología de trabajo del Docente</a>
+                                                        <a href="#!" id="tutoria" class=" breadcrumb ">Tutorias</a>
                                                 
                                                 </div>
                                         
@@ -259,14 +261,16 @@
                    
                 }) 
                });
-               
-                 
-                $(document).ready(function() {
-                $('#metodologia').click( function() {
-                        $("#carga").load('meto.html');
+               $(document).ready(function() {
+                $('#tutoria').click( function() {
+                        $("#carga").load('tuto.html');
                         return false;
-                })
-                 });
+
+                   
+                }) 
+               });
+                 
+              
        
                 
         
@@ -303,4 +307,4 @@
                         });
         </script>       
 </body>
-</html>
+</html>ss
