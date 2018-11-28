@@ -15,7 +15,7 @@
         body{
                 background: #201c1c;
         }
-         h2 {
+        h2 {
    
                     font-family: arial;
      
@@ -69,8 +69,8 @@
                                                                         <ul id="docencia_drop" >
                                                                                 <li><a href="docencia_directa.html">Docencia directa</a></li>
                                                                                 <li><a href="metodologia.html">Metodologia del docente</a></li>
-                                                                                <li><a href="#">Participación en Comisiones</a></li>
-                                                                                <li><a href="#">Cursos de Desarrollo Profesional</a></li>
+                                                                                <li><a href="comisiones.html">Participación en Comisiones</a></li>
+                                                                                <li><a href="cursos.html">Cursos de Desarrollo Profesional</a></li>
                                                                 
                                                                         </ul>
                                                                 </div>
@@ -256,16 +256,7 @@
                         $("#carga").load('datos.html');
                         return false;
 
-                        /*$.ajax({
-                                url: 'datos.html',
-                                context: document.body,
-                                success: function(responseText) {
-                                        $("#carga").html(responseText);
-                                        $("#carga").find("script").each(function(i){
-                                                eval($(this).text());
-                                        });
-                                }
-                        });*/
+                   
                 }) 
                });
                
@@ -312,4 +303,4 @@
                         });
         </script>       
 </body>
-</html>ss
+</html>
