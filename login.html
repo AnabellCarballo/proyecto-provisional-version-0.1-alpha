@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet"  type="text/css"href="materialize/css/materialize.min.css">
+</head>
+<style>
+    .formulario{
+       
+        border: white 20px solid;
+    }
+    h2{
+        font-family: arial;
+    }
+  
+
+</style>
+<body>
+
+    <div class="container section">
+        <div class="row">
+            <div class="col l9 push-l2  ">
+                    <br><br><br>
+                    <div class="card horizontal col l12 z-depth-5 grey lighten-4">
+                        <div class="card-image  black col l12">
+                            <img src="una.png" alt="">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content col l12">
+                                    <h4 class=" center">REGISTRO</h4>
+                                    <br>
+                                    <div class="input-field col s12 ">
+                                            <i class="material-icons prefix">account_circle</i>
+                                            <input type="email" id="email" class="validate white-text" required>
+                                            <label class="black-text"for="email">Email:</label>
+                        
+                                        </div>
+                                        <br>
+                                    <div class="input-field col s12 ">
+                                            <i class="material-icons prefix">lock</i>
+                                            <input type="password" id="password" class="validate white-text" required>
+                                            <label  class="black-text"for="password">Contraseña:</label>
+                            
+                                    </div>
+                                    <br>
+                                    <div class="col l12">
+                                            <h6 class="black-text center  pull-l1 ">No tienes cuenta!!
+                                                    <a href="Registro.html">Registrarse</a>
+                                            </h6></div>
+                                            <div class=" col s11 l7 push-l2 divider "></div>
+                                    <div class="input-field col l12 center">
+                                            
+                                            <a  href="carga.html" class="btn  center large white-text "  type="submit">INICIAR SESIÓN!! </a>
+                                    </div>
+
+                                    
+                            </div>
+                        
+                        </div>
+                    </div>
+                    
+            </div>
+        </div>
+
+                            
+    </div>
+
+
+    
+    <!-- Compiled and minified JavaScript -->
+    <script  type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    <script type="text/javascript" src="jQuery.js"></script>
+    
+    <script>
+            document.addEventListener('DOMContentLoaded', function() {
+               var elems = document.querySelectorAll('.fixed-action-btn');
+               var instances = M.FloatingActionButton.init(elems,{
+               toolbarEnabled: true//,{
+                 // direction:'left',
+                  //  hoverEnabled:'false',
+   
+                               //});}
+     
+            })});
+    </script>
+   
+    
+    
+</body>
+</html>
